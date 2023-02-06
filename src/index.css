@@ -1,0 +1,27 @@
+body {
+  
+  place-items: center;
+ 
+ padding: 0;
+  
+  background:#15171f;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.frame{
+  position:relative;
+  width: 50%;
+  background-color: #23252C;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+ 
+  min-width: 536px;
+  max-width: 700px;
+  place-items: center;
+  display: grid;
+
+}
