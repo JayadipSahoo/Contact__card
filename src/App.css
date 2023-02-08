@@ -17,60 +17,36 @@ a{
 
 
 .About_Header{
-
-
-
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 150%;
-
-
-
 color: #F5F5F5;
-}
-.About{
-
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 10.24px;
-line-height: 150%;
-
-
-
-color: #DCDCDC;
 }
 .Interest_Header{
-
-
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 150%;
-
-
-
-color: #F5F5F5;
-
-}
-.Interest{
-
-
-
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #F5F5F5;
+  }
+.About{
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 10.24px;
 line-height: 150%;
+color: #DCDCDC;
+}
 
-
-
+.Interest{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
 color: #DCDCDC;
 }
 
@@ -105,10 +81,11 @@ margin: auto;
 
 .buttons{
   display:inline-flex;
-  padding-left: 10%;
   position: relative;
-  
- }
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
 
 .Email{
 
@@ -120,7 +97,7 @@ width: 115px;
 height: 34px;
 background: #FFFFFF;
 border-radius: 6px;
-margin-left: 20%;
+
 
 
 }
@@ -159,11 +136,11 @@ width:70%;
 height: 120%;
 display:flex;
 padding-left: 33%;
-
 align-items: center;
 gap:30px;
-
-
 background: #161619;
 border-radius: 0px 0px 20px 20px;
+}
+.content{
+  text-align: left;
 }

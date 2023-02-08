@@ -1,5 +1,5 @@
 import React from "react"
-import image from "./IMG_1497.png"
+import image from "./IMG_1497-min.png"
 import email from "./email.png"
 import linked from "./linkedin.png"
 export default function Info(){
