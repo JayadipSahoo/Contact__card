@@ -1,6 +1,10 @@
 Contact Card Using React - My first React App
+
 Link to visit my Card -https://jayadip-card.netlify.app/
+
 Used concept of JSX
+
+
 To use in local server 
   1. Download  all files
   2. Go to powerShell 
